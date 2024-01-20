@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 public class WelcomeServlet extends HttpServlet {
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
+// testing
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		
